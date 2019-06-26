@@ -1,0 +1,144 @@
+/* HEADER */
+header {
+    height: 120px;
+    position: relative;
+}
+
+nav {
+    width: 1340px;
+    margin-top: 40px;
+    background-color: goldenrod;
+    background-image: url(../imagens/bannerbg.jpg);
+}
+
+#logo {
+    height: 200px;
+    top: -60px;
+    position: absolute;
+}
+
+#menu ul {
+    display:inline-block;
+    list-style: none;
+    margin-left: 300px;
+    height: 80px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 20px 0 0 40px;
+    font-size: 40px;
+    font-weight: bold;     
+}
+
+#menu ul li a {
+    color:#00ff00;
+    text-decoration: none;
+}
+
+.form{
+    display:inline-block;
+    margin-left: 400px;
+}
+
+/*CONTAINER */
+#container {
+    width: 1340px;
+    height:650px;
+    margin: 0 auto;
+}
+
+section .product {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
+    float: left;
+    margin: 0 0 30px 30px;
+    opacity: 1;
+    /* aplica uma transição mais suave */
+    transition: opacity 0.8s  ease-in-out;
+}
+
+section .product-1{
+    background-image: url("../imagens/product-0.jpg");
+}
+
+section .product-2 {
+    background-image: url("../imagens/Gourmet.jpg");
+}
+
+section .product-3 {
+    background-image: url("../imagens/p3.jpg");
+}
+
+section  .product-4 {
+    background-image: url("../imagens/product-5.jpg");
+
+}
+
+section .product-5 {
+    background-image: url("../imagens/product-6.png");
+}
+
+section .product-6{
+    background-image: url("../imagens/product-7.jpg");
+}
+
+Section .product-7{
+    background-image: url("../imagens/product-8.png");
+}
+
+section .product-8{
+    background-image: url("../imagens/foodimagem.jpg");
+}
+
+
+section .img-label {
+    width: 70px;
+    position: absolute;
+    margin-left: 226px;
+    margin-top: 5px;
+}
+
+section .botao {
+    background-color: orange;
+    margin: 260px 0 0 120px;
+    color:white;
+    height: 40px;
+
+}
+
+section .name-product {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 128px;
+    position: absolute;
+    background: silver;
+    height: 25px;
+    width: 300px;
+    
+}
+
+footer {
+    background-color: #FFB90F;
+    width: 1340px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+/*PSEUDO-SELETORES */
+section .product:hover {
+opacity: 0.5;
+}
+
+.input-form:focus{
+    border-color: blue;
+}
+
